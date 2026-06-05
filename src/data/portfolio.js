@@ -7,7 +7,7 @@ export const profile = {
   location: 'Monastir, Tunisie',
   email: 'benhalimaghazi@gmail.com',
   phone: '+216 53 126 178',
-  linkedin: 'https://www.linkedin.com/in/ghazi-ben-halima/',
+  linkedin: 'https://www.linkedin.com/in/ghazibenhalima',
   github: 'https://github.com/',
   cv: '/cv/Cv_GhaziBenHalima_2025.pdf',
   yearsOfExperience: 3,
