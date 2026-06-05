@@ -1,0 +1,24 @@
+Architecture
+src/data/portfolio.js — single source of truth for all CV content (easy to update)
+src/i18n.js — complete FR / EN translations
+src/context/ — ThemeContext (dark/light) + LanguageContext (FR/EN)
+src/components/ — 14 focused, reusable components
+Sections built
+Section	Features
+Loader	Animated spinner + progress bar
+Navbar	Sticky, active pill, theme + lang toggles, CV download
+Hero	Animated avatar card, floating tech chips, stats, social links
+About	Profile bio, highlights checklist, language proficiency bars
+Experience	Animated vertical timeline with full bullet points
+Skills	6 grouped cards with icon, hover lift effect
+Projects	7 project cards (all from CV) with gradient accents
+Education	3 degree cards with animated entry
+Certifications	Certs + awards/distinctions grid
+Contact	Email/phone/location cards + mailto form
+Footer	Social links + back-to-top button
+Ready for deployment
+netlify.toml + vercel.json pre-configured
+SEO: meta tags, Open Graph, Twitter Card, robots.txt, sitemap.xml
+public/cv/ — drop your PDF there as cv-ghazi-benhalima.pdf
+Fix PATH permanently (recommended)
+To use npm directly in your terminal, add C:\Program Files\nodejs to your Windows PATH via System Properties → Environment Variables.

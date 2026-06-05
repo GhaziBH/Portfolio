@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+html.dark { background: #06080c; }
+html:not(.dark) { background: #f6f7f9; }
+body { font-family: 'Inter', system-ui, sans-serif; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #10b981, #047857); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: linear-gradient(180deg, #34d399, #059669); }
+::selection { background: rgba(16, 185, 129, 0.35); color: #fff; }
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-6xl px-5 sm:px-8; }
+  .glass { @apply bg-white/5 backdrop-blur-xl border border-white/10; }
+  .card {
+    @apply rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-sm
+           transition-all duration-300 hover:border-brand-500/40 hover:bg-white/[0.05] hover:shadow-glow;
+  }
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-white/10
+           bg-white/5 px-3 py-1 text-xs font-medium text-ink-200;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-brand-500 to-brand-600
+           px-5 py-2.5 text-sm font-semibold text-ink-950 shadow-glow
+           transition-transform duration-200 hover:scale-[1.03] active:scale-95;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5
+           px-5 py-2.5 text-sm font-semibold text-ink-100 transition-all
+           hover:border-brand-400/60 hover:text-white hover:bg-white/10;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-300 via-brand-400 to-emerald-300 bg-clip-text text-transparent;
+  }
+  .section-pad { @apply py-24 sm:py-28; }
+}
+
+html:not(.dark) body { @apply bg-ink-50 text-ink-900; }
+html:not(.dark) .card { @apply border-black/5 bg-white hover:border-brand-500/40; }
+html:not(.dark) .pill { @apply border-black/10 bg-black/[0.03] text-ink-700; }
+html:not(.dark) .btn-ghost { @apply border-black/10 bg-white text-ink-800 hover:bg-ink-100; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
