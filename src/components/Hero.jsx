@@ -114,10 +114,10 @@ export default function Hero() {
                   <p className="mt-1 text-xs uppercase tracking-[0.2em] text-brand-300">Full Stack Engineer</p>
                 </div>
               </motion.div>
-              <FloatingChip className="-top-3 left-6" delay={0}>.NET Core</FloatingChip>
-              <FloatingChip className="-top-2 right-4" delay={0.4}>Angular 19</FloatingChip>
-              <FloatingChip className="bottom-4 -left-3" delay={0.8}>Azure</FloatingChip>
-              <FloatingChip className="-bottom-3 right-8" delay={1.2}>Microservices</FloatingChip>
+              <FloatingChip className="-top-3 left-6" delay={0}>.NET 8</FloatingChip>
+              <FloatingChip className="-top-2 right-4" delay={0.4}>Angular</FloatingChip>
+              <FloatingChip className="bottom-4 -left-3" delay={0.8}>Azure DevOps</FloatingChip>
+              <FloatingChip className="-bottom-3 right-8" delay={1.2}>ISO8583</FloatingChip>
               <FloatingChip className="top-1/2 -right-4" delay={1.6}>
                 <Sparkles size={10} className="text-brand-300" /> CQRS
               </FloatingChip>

@@ -8,6 +8,7 @@ export const translations = {
       projects: 'Projets',
       education: 'Formation',
       certifications: 'Certifications',
+      'personal-projects': 'Side Projects',
       contact: 'Contact',
       cv: 'Télécharger CV',
     },
@@ -15,7 +16,7 @@ export const translations = {
       greeting: 'Bonjour, je suis',
       role: 'Ingénieur Full Stack — .NET / Angular',
       tagline:
-        "Je conçois et développe des solutions robustes et évolutives : microservices, monétique, plateformes bancaires et applications web modernes.",
+        "5 ans d'expérience en conception et livraison de plateformes critiques : monétique, paiement électronique, microservices et systèmes à forte volumétrie transactionnelle.",
       ctaProjects: 'Voir mes projets',
       ctaContact: 'Me contacter',
       stats: {
@@ -29,12 +30,14 @@ export const translations = {
       title: 'À propos de moi',
       kicker: 'Profil',
       body:
-        "Ingénieur informatique diplômé de l'École d'Ingénieurs ENET'COM, avec 3+ années d'expérience en développement Full Stack .NET / Angular. Spécialisé en Clean Architecture, microservices, tests unitaires et solutions monétiques, avec une maîtrise des bonnes pratiques DevOps, sécurité applicative et gestion Agile/Scrum. Solide expérience en relation client et conception de solutions robustes et évolutives.",
+        "Ingénieur informatique avec 5 ans d'expérience en développement Full Stack .NET / Angular. Actuellement Project Lead chez MS SOLUTIONS, je pilote des plateformes monétiques critiques (+500K utilisateurs, 100K+ tx/jour). Spécialisé en Clean Architecture, CQRS, microservices et optimisation de systèmes à forte volumétrie, avec une maîtrise des pratiques DevOps, CI/CD et Azure.",
       highlights: [
-        'Clean Architecture & Microservices',
-        'DevOps, CI/CD & Cloud Azure',
-        'Tests unitaires (NUnit / XUnit) & CQRS',
-        'Solutions monétiques & bancaires',
+        'Clean Architecture, CQRS & Microservices',
+        'Azure, Azure DevOps & CI/CD',
+        'ISO8583, SPDH & Monétique',
+        '+85% couverture de tests unitaires',
+        'SQL Server & Optimisation de performance',
+        'Leadership Agile/Scrum & Mentoring',
       ],
       languages: 'Langues',
     },
@@ -57,9 +60,16 @@ export const translations = {
       },
     },
     projects: {
-      title: 'Projets clés',
+      title: 'Projets professionnels',
       kicker: 'Réalisations',
       tech: 'Stack utilisée',
+    },
+    personalProjects: {
+      title: 'Projets personnels',
+      kicker: 'Side Projects',
+      tech: 'Stack utilisée',
+      viewCode: 'Voir le code',
+      liveDemo: 'Démo live',
     },
     education: {
       title: 'Formation académique',
@@ -101,6 +111,7 @@ export const translations = {
       projects: 'Projects',
       education: 'Education',
       certifications: 'Certifications',
+      'personal-projects': 'Side Projects',
       contact: 'Contact',
       cv: 'Download CV',
     },
@@ -108,7 +119,7 @@ export const translations = {
       greeting: "Hi, I'm",
       role: 'Full Stack Engineer — .NET / Angular',
       tagline:
-        'I design and build robust, scalable solutions: microservices, payment systems, banking platforms and modern web applications.',
+        '5 years of experience designing and delivering critical platforms: payment systems, fintech, microservices and high-volume transaction processing.',
       ctaProjects: 'View my projects',
       ctaContact: 'Get in touch',
       stats: {
@@ -122,12 +133,14 @@ export const translations = {
       title: 'About me',
       kicker: 'Profile',
       body:
-        "Software engineer graduated from ENET'COM Engineering School, with 3+ years of experience in Full Stack .NET / Angular development. Specialized in Clean Architecture, microservices, unit testing and payment solutions, with strong expertise in DevOps, application security and Agile/Scrum delivery. Solid track record in client relations and designing robust, evolutive solutions.",
+        "Software engineer with 5 years of experience in Full Stack .NET / Angular development. Currently Project Lead at MS SOLUTIONS, I drive critical payment platforms (500K+ users, 100K+ tx/day). Specialized in Clean Architecture, CQRS, microservices and high-volume system optimization, with strong DevOps, CI/CD and Azure expertise.",
       highlights: [
-        'Clean Architecture & Microservices',
-        'DevOps, CI/CD & Azure Cloud',
-        'Unit testing (NUnit / XUnit) & CQRS',
-        'Payment & banking solutions',
+        'Clean Architecture, CQRS & Microservices',
+        'Azure, Azure DevOps & CI/CD',
+        'ISO8583, SPDH & Payment Systems',
+        '85%+ unit test coverage',
+        'SQL Server & Performance Optimization',
+        'Agile/Scrum Leadership & Mentoring',
       ],
       languages: 'Languages',
     },
@@ -150,9 +163,16 @@ export const translations = {
       },
     },
     projects: {
-      title: 'Key projects',
+      title: 'Professional projects',
       kicker: 'Work',
       tech: 'Tech stack',
+    },
+    personalProjects: {
+      title: 'Personal projects',
+      kicker: 'Side Projects',
+      tech: 'Tech stack',
+      viewCode: 'View code',
+      liveDemo: 'Live demo',
     },
     education: {
       title: 'Academic background',

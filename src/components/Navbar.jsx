@@ -5,7 +5,7 @@ import { useTheme } from '../context/ThemeContext.jsx';
 import { useLang } from '../context/LanguageContext.jsx';
 import { profile } from '../data/portfolio.js';
 
-const sections = ['home', 'about', 'experience', 'skills', 'projects', 'education', 'certifications', 'contact'];
+const sections = ['home', 'about', 'experience', 'skills', 'projects', 'personal-projects', 'education', 'certifications', 'contact'];
 
 export default function Navbar() {
   const { theme, toggle } = useTheme();
