@@ -270,12 +270,15 @@ export const education = [
 ];
 
 export const skills = {
-  languages: ['C#', '.NET 8', '.NET Core', 'ASP.NET Core', 'Angular 8-20', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Python'],
-  databases: ['SQL Server', 'T-SQL', 'Entity Framework Core', 'Dapper', 'ADO.NET', 'MySQL', 'SQLite'],
-  web: ['API REST', 'Web API', 'JWT', 'Swagger / OpenAPI', 'ISO8583', 'SPDH'],
-  devops: ['Azure', 'Azure DevOps', 'CI/CD', 'Git', 'Docker', 'IIS', 'SonarQube', 'Hangfire', 'CRON', 'SFTP'],
-  methods: ['Agile', 'Scrum (SFPC)', 'Six Sigma Yellow Belt', 'Jira', 'Postman'],
-  other: ['Clean Architecture', 'Microservices', 'CQRS', 'DDD', 'SOLID', 'Design Patterns', 'NUnit', 'xUnit', 'Moq'],
+  backend: ['C#', '.NET Framework 4.x', '.NET Core', '.NET 5-10', 'ASP.NET Core', 'ASP.NET', 'Web API', 'WCF', 'Windows Services', 'Hangfire', 'CRON', 'Serilog'],
+  frontend: ['Angular 8-20', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'TailwindCSS', 'Bootstrap', 'NgRx', 'Standalone Components', 'OnPush', 'ChartJS', 'Leaflet'],
+  databases: ['SQL Server', 'T-SQL', 'Entity Framework Core', 'Dapper', 'ADO.NET', 'MySQL', 'SQLite', 'Redis', 'SSRS', 'SSIS'],
+  api: ['API REST', 'JWT', 'Swagger / OpenAPI', 'CORS', 'Postman', 'ISO8583', 'SPDH', 'SFTP', 'Apache Kafka', 'Nginx'],
+  devops: ['Azure', 'Azure DevOps', 'CI/CD', 'Git', 'Docker', 'IIS', 'SonarQube', 'Linux', 'Visual Studio', 'Logstash'],
+  architecture: ['Clean Architecture', 'Microservices', 'CQRS', 'DDD', 'SOLID', 'Design Patterns', 'Multi-tenant', 'Open Graph', 'SEO'],
+  testing: ['NUnit', 'xUnit', 'Moq', 'Tests unitaires', 'Tests d\'intégration', 'Couverture > 85%', 'bcrypt'],
+  methods: ['Agile / Scrum', 'Six Sigma Yellow Belt', 'Jira', 'Gestion de projet', 'Estimation de projet', 'Leadership technique', 'Analyse fonctionnelle'],
+  other: ['Python', 'FastAPI', 'Ollama LLM', 'Java', 'C++', 'E-Banking', 'BMC Remedy'],
 };
 
 export const languages = [
@@ -288,12 +291,16 @@ export const languages = [
 export const certifications = [
   'Scrum SFPC — CertiProf',
   'Six Sigma Yellow Belt — VMEdu',
+  'Scrum Master Training — Master of Project Academy',
+  'Scrum Fundamentals (SFC) — VMEdu',
   'Azure DevOps Boards — Coursera',
+  'MTA: Python — Microsoft',
+  'Software Developer — LinkedIn',
   'C# — Sololearn',
   'SQL — Sololearn',
-  'Software Developer — LinkedIn',
+  'C++ — Sololearn',
+  'Python — Coursera (Google)',
   'HTML5 & CSS3 — BitDegree',
-  'Python — Google',
 ];
 
 export const awards = {

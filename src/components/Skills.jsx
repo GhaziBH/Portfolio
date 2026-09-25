@@ -1,16 +1,19 @@
 import { motion } from 'framer-motion';
-import { Code2, Database, Globe, Cog, Workflow, Boxes } from 'lucide-react';
+import { Code2, Database, Globe, Cog, Workflow, Boxes, Monitor, FlaskConical, Network, ShieldCheck } from 'lucide-react';
 import SectionTitle from './SectionTitle.jsx';
 import { useLang } from '../context/LanguageContext.jsx';
 import { skills } from '../data/portfolio.js';
 
 const groups = [
-  { key: 'languages', icon: Code2, items: skills.languages },
+  { key: 'backend', icon: Code2, items: skills.backend },
+  { key: 'frontend', icon: Monitor, items: skills.frontend },
   { key: 'databases', icon: Database, items: skills.databases },
-  { key: 'web', icon: Globe, items: skills.web },
+  { key: 'api', icon: Network, items: skills.api },
   { key: 'devops', icon: Cog, items: skills.devops },
+  { key: 'architecture', icon: Boxes, items: skills.architecture },
+  { key: 'testing', icon: FlaskConical, items: skills.testing },
   { key: 'methods', icon: Workflow, items: skills.methods },
-  { key: 'other', icon: Boxes, items: skills.other },
+  { key: 'other', icon: Globe, items: skills.other },
 ];
 
 export default function Skills() {
